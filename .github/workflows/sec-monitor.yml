@@ -1,0 +1,71 @@
+name: Archive SEC filings and publish reading room
+
+on:
+  schedule:
+    - cron: "17 2,14 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/sec-monitor.yml"
+      - "scripts/**"
+      - "tests/**"
+      - "watchlist.json"
+
+concurrency:
+  group: sec-archive-and-pages
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test archiver
+        run: python -m unittest discover -s tests -v
+      - name: Download new SEC filings
+        env:
+          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || format('financial-analysis/1.0 (https://github.com/{0}; maintainer https://github.com/{1})', github.repository, github.repository_owner) }}
+        run: python scripts/sec_archive.py sync
+      - name: Commit completed archives, including on partial failure
+        if: ${{ !cancelled() }}
+        run: |
+          if [ -d reports ]; then
+            git add reports
+            if ! git diff --cached --quiet; then
+              git config user.name "github-actions[bot]"
+              git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+              git commit -m "Archive SEC filings and update last checked time"
+              git push origin HEAD:main
+            fi
+          fi
+      - name: Build reading room
+        run: python scripts/sec_archive.py build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: archive
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

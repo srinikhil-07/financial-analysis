@@ -21,22 +21,22 @@ permissions:
 
 jobs:
   archive:
-    runs-on: ubuntu-latest
+    runs-on: ${{ vars.SEC_RUNNER || 'ubuntu-latest' }}
     timeout-minutes: 45
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           ref: main
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
       - name: Test archiver
         run: python -m unittest discover -s tests -v
       - name: Download new SEC filings
         env:
-          SEC_USER_AGENT: ${{ vars.SEC_USER_AGENT || format('financial-analysis/1.0 (https://github.com/{0}; maintainer https://github.com/{1})', github.repository, github.repository_owner) }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT || vars.SEC_USER_AGENT || format('financial-analysis/1.0 (https://github.com/{0}; maintainer https://github.com/{1})', github.repository, github.repository_owner) }}
         run: python scripts/sec_archive.py sync
       - name: Commit completed archives, including on partial failure
         if: ${{ !cancelled() }}

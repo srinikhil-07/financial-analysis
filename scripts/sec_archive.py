@@ -86,6 +86,12 @@ class SECClient:
                             digest.update(chunk)
                 return {"bytes": size, "sha256": digest.hexdigest()}
             except HTTPError as error:
+                if error.code == 403:
+                    raise RuntimeError(
+                        f"SEC denied access to {url} (HTTP 403). Configure SEC_USER_AGENT "
+                        "with a real maintainer contact. If access remains denied, use "
+                        "an SEC-permitted runner/network; do not bypass the block."
+                    ) from error
                 if error.code not in {429, 500, 502, 503, 504} or attempt == 3:
                     raise
                 print(f"SEC HTTP {error.code}; retrying {url}", file=sys.stderr)

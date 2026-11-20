@@ -1,6 +1,5 @@
 import hashlib
 import importlib.util
-import json
 from pathlib import Path
 import tempfile
 import unittest
@@ -135,6 +134,28 @@ class ArchiveTests(unittest.TestCase):
                 archive.archive_filing(client, COMPANY, row, root / "company", root / "stage")
             self.assertFalse((root / "company/sources" / row["accessionNumber"]).exists())
             self.assertFalse((root / "stage/AAPL" / row["accessionNumber"]).exists())
+
+    def test_failed_sync_keeps_completed_filings_without_advancing_checkpoint(self):
+        first = filing(1, "10-Q", "2026-11-18")
+        second = filing(2, "8-K", "2026-11-19")
+        second["primaryDocument"] = "missing.htm"
+        client = FakeClient({
+            "cik": 320193, "name": "Apple",
+            "filings": {"recent": columns([first, second]), "files": []},
+        })
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            archive.write_json(root / "watchlist.json", {"companies": [COMPANY]})
+            with self.assertRaisesRegex(ValueError, "Primary document missing"):
+                archive.sync(root, client)
+            manifest = archive.read_json(root / "reports/US/AAPL/archive.json")
+            self.assertIsNone(manifest["checked_at"])
+            self.assertEqual(list(manifest["filings"]), [first["accessionNumber"]])
+            client.files["missing.htm"] = b"Second filing"
+            archive.sync(root, client)
+            manifest = archive.read_json(root / "reports/US/AAPL/archive.json")
+            self.assertIsNotNone(manifest["checked_at"])
+            self.assertEqual(len(manifest["filings"]), 2)
 
     def test_rejects_directory_traversal_from_sec_listing(self):
         client = FakeClient()

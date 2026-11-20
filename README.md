@@ -14,7 +14,15 @@ catch up after a long pause. Other SEC forms are not currently monitored.
 
 ## Reading the documents
 
-Enable **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+Before the first successful publication:
+
+1. Add an Actions secret named **SEC_USER_AGENT** under **Settings → Secrets and
+   variables → Actions**, identifying your application and a real maintainer
+   contact email (for example, `financial-analysis YourName you@example.com`).
+2. Enable **Settings → Pages → Build and deployment → Source → GitHub Actions**.
+3. Use **Actions → Archive SEC filings and publish reading room → Run workflow**.
+   The reading-site link above works only after a successful archive and deployment.
+
 The workflow publishes a company index linking directly to the original SEC HTML,
 PDFs, exhibits, XBRL data and other files. HTML renders in the browser, PDFs use
 the browser's PDF viewer, and other formats may display as text or download.
@@ -63,9 +71,10 @@ CIK and would duplicate the archive if watched separately.
 
 ## Configuration and failures
 
-Optionally set the Actions repository variable **SEC_USER_AGENT** to an application
-name and a real maintainer contact email, per SEC fair-access guidance. By default,
-the request identifies this application, repository and maintainer profile URL.
+The **SEC_USER_AGENT** secret is recommended so the contact email is masked in
+public Actions logs. An Actions repository variable of the same name is also
+supported; the secret takes precedence. Without either, the request identifies
+this application, repository and maintainer profile URL, which SEC may reject.
 Requests are serialized below four per second with bounded retries for rate limits,
 transient server errors and connection failures. No paid API or API key is needed.
 
@@ -80,7 +89,11 @@ unbounded archive of all EDGAR filings.
 SEC access restrictions can return HTTP 403 to cloud runners. Such failures are
 visible in Actions and do not silently skip filings. Follow SEC access guidance;
 do not bypass blocks. If a valid identifying User-Agent does not resolve a block,
-use a permitted runner/network.
+use a permitted runner/network. You can register a suitable self-hosted runner and
+set the Actions repository variable **SEC_RUNNER** to its label (for example,
+`self-hosted`). The default is `ubuntu-latest`. Only use a trusted runner dedicated
+to this repository, since the archive job has repository write access. Pages
+deployment always uses a GitHub-hosted runner.
 
 ## Local use
 

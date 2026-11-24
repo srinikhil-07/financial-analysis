@@ -1,0 +1,1009 @@
+{
+  "country": "US",
+  "ticker": "AAPL",
+  "cik": "0000320193",
+  "filings": {
+    "0000320193-26-000020": {
+      "accessionNumber": "0000320193-26-000020",
+      "form": "10-Q",
+      "filingDate": "2026-07-31",
+      "reportDate": "2026-06-27",
+      "primaryDocument": "aapl-20260627.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020",
+      "documents": [
+        {
+          "name": "0000320193-26-000020-index-headers.html",
+          "bytes": 15686,
+          "sha256": "17b1ccec31c080b1abc65f51409873b3fce3cbbe3783400a4c7286a047f9b7b5"
+        },
+        {
+          "name": "0000320193-26-000020-index.html",
+          "bytes": 11500,
+          "sha256": "c57893e64c59dee3ac8db234647cb4875694e5f07b3a900d9d6c703526842c22"
+        },
+        {
+          "name": "0000320193-26-000020-xbrl.zip",
+          "bytes": 166630,
+          "sha256": "c24e81084d737a31fa05946d87e237d57e3135c2c3bf0ac2172719045e11f5f8"
+        },
+        {
+          "name": "0000320193-26-000020.txt",
+          "bytes": 5946811,
+          "sha256": "c7d570d86d5de92899b314776ba1437da6a706d24d0efc2ca014657d2efbaaa7"
+        },
+        {
+          "name": "FilingSummary.xml",
+          "bytes": 28383,
+          "sha256": "48813c60ff787b4dcbefa6916997beec6d986940d6afea85b0f73b84d26079ca"
+        },
+        {
+          "name": "MetaLinks.json",
+          "bytes": 798645,
+          "sha256": "181f1d49f8d8768cb8689be4bef9489213795639bbd666899b8492fe99de5c23"
+        },
+        {
+          "name": "R1.htm",
+          "bytes": 70260,
+          "sha256": "40b5655f438577d73e5cd8eb7038c17257c9f2e38dbe48ac5e39475920d6ec35"
+        },
+        {
+          "name": "R10.htm",
+          "bytes": 24923,
+          "sha256": "877fc9f4fac772720f0eb652e9408bb7d743078f1baf28a35fe1bb8efeb38c8b"
+        },
+        {
+          "name": "R11.htm",
+          "bytes": 131324,
+          "sha256": "29dd7d25162194a635dfc7740b7ba6e87ded91c3c51648585bf58fa4c53a4f6a"
+        },
+        {
+          "name": "R12.htm",
+          "bytes": 23928,
+          "sha256": "718823ed780192c8b08e5e47cb984a07f9413a6a3a5ac4910c8107e10cbf70dc"
+        },
+        {
+          "name": "R13.htm",
+          "bytes": 22447,
+          "sha256": "30fb57f44b5ca025099e8ea5ef8164da65bb41c4651a1f912a50320a2414e3c1"
+        },
+        {
+          "name": "R14.htm",
+          "bytes": 9921,
+          "sha256": "39bf3cbb250d7d14cc5fc22ed60b681001af4210002bb1b992a9d2335b6ea01d"
+        },
+        {
+          "name": "R15.htm",
+          "bytes": 23821,
+          "sha256": "473e00a9574bd7b2228f8d218bdf703338ec9daed4f27a55d3b8ed36a6f48098"
+        },
+        {
+          "name": "R16.htm",
+          "bytes": 12366,
+          "sha256": "9695eaa4799f82c3e8fe8496ccc46f553afc8daf42233f4cf0f12e9fdf403030"
+        },
+        {
+          "name": "R17.htm",
+          "bytes": 118112,
+          "sha256": "c82fb9e501af4ffb0e6c271dd99665b363ba3cfcc274fc5864ebddf7c9177b67"
+        },
+        {
+          "name": "R18.htm",
+          "bytes": 27079,
+          "sha256": "e58c51a0f14aece052b15cae7fea716f467345f1fe6021827ae2578629327170"
+        },
+        {
+          "name": "R19.htm",
+          "bytes": 11290,
+          "sha256": "f89937e5b11a8de87016c9a4fd70853566be8e70a4190eb8c546a33dc71c2ce6"
+        },
+        {
+          "name": "R2.htm",
+          "bytes": 94186,
+          "sha256": "438e1bee17159b7f5e7fbf312a71f72f77798d9b8108a6c4f98c16f8e8006688"
+        },
+        {
+          "name": "R20.htm",
+          "bytes": 25110,
+          "sha256": "583135611a24b00a8f0356a8fcd416e738cf452695b2fbdcd374d6dc83941516"
+        },
+        {
+          "name": "R21.htm",
+          "bytes": 24525,
+          "sha256": "1698a849e0fa6fa2c3f9b579ee3681b4cb733f841d4c2dca290b2a1c8b48af98"
+        },
+        {
+          "name": "R22.htm",
+          "bytes": 125022,
+          "sha256": "11896b9f263127cb84665ebe6aef720290a9f0f1097bd8105d302206945ec2f4"
+        },
+        {
+          "name": "R23.htm",
+          "bytes": 28280,
+          "sha256": "a3bf9fa547933a45547c2c06bd67f98f6f38d2030c86bae4691290c60543727d"
+        },
+        {
+          "name": "R24.htm",
+          "bytes": 13734,
+          "sha256": "9722f947150fc62d3b02c57fc3a615dfec1b4935ad1560470e0c69dca59af1f1"
+        },
+        {
+          "name": "R25.htm",
+          "bytes": 23511,
+          "sha256": "f7905064febb5f1feec4d735f5aa89e99313c605c8b75c3c4e5a8b0820e9bfb8"
+        },
+        {
+          "name": "R26.htm",
+          "bytes": 9748,
+          "sha256": "cea04defe111a6ad214ee3e33d082076b37ec256842c6187b5a29cb61e31249b"
+        },
+        {
+          "name": "R27.htm",
+          "bytes": 112005,
+          "sha256": "836a81edfb34c23795957662733fc78cb24555aadc36737a30e50872a74d0024"
+        },
+        {
+          "name": "R28.htm",
+          "bytes": 25073,
+          "sha256": "17b1285709dbf4440c9aa5faf9e2ed1ec146d1edb24b71cd4ed23b92adc55a80"
+        },
+        {
+          "name": "R29.htm",
+          "bytes": 5231,
+          "sha256": "e1151d2555d4393346e0f31d9108e8409266dd60dd4dd353c3b423a99c6ffc84"
+        },
+        {
+          "name": "R3.htm",
+          "bytes": 50065,
+          "sha256": "bb4a819e569cb528ece955cfa2277b9306272584eac1984ffc1c2c05b1f9c111"
+        },
+        {
+          "name": "R30.htm",
+          "bytes": 16069,
+          "sha256": "5939b76220d2eafad001804869defceb492f94b41f6d1cae3e3d3029f7cc53c7"
+        },
+        {
+          "name": "R31.htm",
+          "bytes": 44890,
+          "sha256": "a21d13e5a8d5e28e91e6b990fecd2824a79412b56c38971c82fcb55fb6737fd3"
+        },
+        {
+          "name": "R32.htm",
+          "bytes": 93466,
+          "sha256": "ef6821e96be828233ded3e9e222bc860a9d188cc0777de28c6d6cc817deb9d12"
+        },
+        {
+          "name": "R33.htm",
+          "bytes": 44177,
+          "sha256": "e94dfafce38fc6a80a5e6836509017f42092d9e41c0c5f4403e60d96699dcf07"
+        },
+        {
+          "name": "R34.htm",
+          "bytes": 13280,
+          "sha256": "996fe57ac873c90f6b0a652972321cb3b5ccbad837e10dd1e90f8415483e1594"
+        },
+        {
+          "name": "R35.htm",
+          "bytes": 9892,
+          "sha256": "b12157f1357532cc8581e3a8198a1a567d4385e5d73ed9b03a895f8b70a549b6"
+        },
+        {
+          "name": "R36.htm",
+          "bytes": 11242,
+          "sha256": "ddd3af2078875394bdaa1d468114fe2147cbcd07ff76b6d87a0c07991409d7fa"
+        },
+        {
+          "name": "R37.htm",
+          "bytes": 13422,
+          "sha256": "fd57fea867e243b04faf6d9c3fee224bfcd84941a5051bd7cae386c6d2c235cb"
+        },
+        {
+          "name": "R38.htm",
+          "bytes": 26669,
+          "sha256": "dfa51d9ca516655c90baba250a989d2086ba86ef2d18c3a793ee45228a54faff"
+        },
+        {
+          "name": "R39.htm",
+          "bytes": 15472,
+          "sha256": "e3011f747a145161e6589f805af26033fd187265366a8f6006bd017f8cb5545e"
+        },
+        {
+          "name": "R4.htm",
+          "bytes": 124641,
+          "sha256": "e81f5ad3fc2ed62383eb21cc969ad24025f3a91606b52fa07ed4f6090a43dfdf"
+        },
+        {
+          "name": "R40.htm",
+          "bytes": 8166,
+          "sha256": "e9941f6c0a009c18fcfa3b0d4de32fd7f04714fa801ccfa8e38cf3df78ce2dd6"
+        },
+        {
+          "name": "R41.htm",
+          "bytes": 24973,
+          "sha256": "4ed4e51a7ee2eed55372e36a296f735ed16ea3683753c90feda0ced8248daf82"
+        },
+        {
+          "name": "R42.htm",
+          "bytes": 19656,
+          "sha256": "c8b9d9abc66266620db8d61725df8100f0d3676f63da2d854b97f09b1ed7d78f"
+        },
+        {
+          "name": "R43.htm",
+          "bytes": 7680,
+          "sha256": "0daa333c3699078245860ca82b2b5617eaa62c2e5d141ff07e2c24e233d5ca73"
+        },
+        {
+          "name": "R44.htm",
+          "bytes": 18387,
+          "sha256": "5f5913dae1e6e5a626df642077c6bb54a0c3ee0adc7dff1ffc904783cb9c0a19"
+        },
+        {
+          "name": "R45.htm",
+          "bytes": 4051,
+          "sha256": "a63a95471033f89f958ca64e287fd890587ff02eb3e4f9630576d6cbe4978486"
+        },
+        {
+          "name": "R46.htm",
+          "bytes": 46432,
+          "sha256": "cc7b4f207063f6150cb45cebd8026a19e98993c00f5e480125fae90e28cc2260"
+        },
+        {
+          "name": "R5.htm",
+          "bytes": 12243,
+          "sha256": "3f7958511a5ce0806253f35803e86b9202200cf6bbbdf6c131c513a0a78774cf"
+        },
+        {
+          "name": "R6.htm",
+          "bytes": 60458,
+          "sha256": "225b25b02388f6966f8567f6f4e3216657789977def11e9e273503063f3bc53d"
+        },
+        {
+          "name": "R7.htm",
+          "bytes": 89167,
+          "sha256": "345fd9b20cb812e27fce43f0108c09f079c9f52dffb78819c1c71ccde4439796"
+        },
+        {
+          "name": "R8.htm",
+          "bytes": 6926,
+          "sha256": "63ae7086cda0174b886d3bff6648e49e40bb595e9151c241ab22304bb2b9af88"
+        },
+        {
+          "name": "R9.htm",
+          "bytes": 28878,
+          "sha256": "e8188d7fd3d03939fb1ad62effd0522991f2810131f43a5f5fec56fc82df152d"
+        },
+        {
+          "name": "Show.js",
+          "bytes": 1085,
+          "sha256": "c193d3fb2f770d17d8d3476756fd5b7fe5c61c3fa1a2afd8aa0971210c7abba6"
+        },
+        {
+          "name": "a10-qexhibit31106272026.htm",
+          "bytes": 10694,
+          "sha256": "1c53dec477e3658a33f16d3032d32b681c43291aed4e7c8e70b94820d0a1f822"
+        },
+        {
+          "name": "a10-qexhibit31206272026.htm",
+          "bytes": 10733,
+          "sha256": "b0d112df7a6e8b77510a0e1d742cc90f21754014aa8d057a41f84c091dc32fc4"
+        },
+        {
+          "name": "a10-qexhibit32106272026.htm",
+          "bytes": 8578,
+          "sha256": "e6ab2b1f493bb785a3d4cf292db3281c4ba2657e1520566708a2b988d75eef60"
+        },
+        {
+          "name": "aapl-20260627.htm",
+          "bytes": 1018326,
+          "sha256": "8d47f3355800ea0ba595afec4bffe95c6b3ce93fa18c77f29b6fb41e19ec7841"
+        },
+        {
+          "name": "aapl-20260627.xsd",
+          "bytes": 36144,
+          "sha256": "841c27080fd415d8397324b61c593dea70f7dd1694e82d85d8455e9b52e7fe1b"
+        },
+        {
+          "name": "aapl-20260627_cal.xml",
+          "bytes": 89689,
+          "sha256": "bfac4447fafe0a89027deb8c5c7fc014c9ff6c095e92c5f5fa989621b53e919d"
+        },
+        {
+          "name": "aapl-20260627_def.xml",
+          "bytes": 148354,
+          "sha256": "fc68616a3a1c8520a0169328395cf900ccf0ac8feb2fe7cb7d95a93b40a7b055"
+        },
+        {
+          "name": "aapl-20260627_g1.jpg",
+          "bytes": 10963,
+          "sha256": "d34f70bca1c0667ed6e35acdfc5cce311ae1788650986c40d72a3eda2df5535d"
+        },
+        {
+          "name": "aapl-20260627_htm.xml",
+          "bytes": 962405,
+          "sha256": "28f986bb243c8fdd445560d381df4b57912ca290b03b8451ecd518e63cdb5d2b"
+        },
+        {
+          "name": "aapl-20260627_lab.xml",
+          "bytes": 511737,
+          "sha256": "4f3ec383bcc942aacb369a6d23e897af25e8e04277a569ee8037bc1ea6ea39bf"
+        },
+        {
+          "name": "aapl-20260627_pre.xml",
+          "bytes": 325458,
+          "sha256": "b8f35f3d132b056000f47019b6d95cad0c24d663fe4e7431a5dda0811d8f51ca"
+        },
+        {
+          "name": "report.css",
+          "bytes": 2767,
+          "sha256": "6e92041b5ae44d048d68011d9ce8fdd0e68ff4cbe77cd0f265997d163152c54e"
+        }
+      ]
+    },
+    "0000320193-26-000026": {
+      "accessionNumber": "0000320193-26-000026",
+      "form": "10-K",
+      "filingDate": "2026-11-03",
+      "reportDate": "2026-09-26",
+      "primaryDocument": "aapl-20260926.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000026",
+      "documents": [
+        {
+          "name": "0000320193-26-000026-index-headers.html",
+          "bytes": 24713,
+          "sha256": "1b48e0860794f490f5744c8d376116da96fa500f626a734dce0d73d1957a80a2"
+        },
+        {
+          "name": "0000320193-26-000026-index.html",
+          "bytes": 14910,
+          "sha256": "ef0c453c22b093b052351e5228725202db95a3e7e4dbb792b5e19c9b09ecf0b2"
+        },
+        {
+          "name": "0000320193-26-000026-xbrl.zip",
+          "bytes": 457244,
+          "sha256": "eb6ff1af2db1ffd06268db637f6ff46538ca6b9fcf0ab4e2b485ba8eddb06a79"
+        },
+        {
+          "name": "0000320193-26-000026.txt",
+          "bytes": 10902198,
+          "sha256": "edd39e7620e992bf51f3a8e82e383cc3d2faf931bdebf41b2d22dd50b872d380"
+        },
+        {
+          "name": "FilingSummary.xml",
+          "bytes": 48480,
+          "sha256": "bbe3d2dac9c994bfa5323d2a20ccec8431cadf9e3c8478ee85d23854dd10db92"
+        },
+        {
+          "name": "MetaLinks.json",
+          "bytes": 1288459,
+          "sha256": "9447a3dbdcf69b035ea9f81cba2d53f1ca17d7243053c77cd2d4cdba2a1dffe6"
+        },
+        {
+          "name": "R1.htm",
+          "bytes": 86788,
+          "sha256": "475cfebd18c6401c18b322f70195d633f2327aae42692b24c69198310161ab04"
+        },
+        {
+          "name": "R10.htm",
+          "bytes": 29599,
+          "sha256": "a1fa14966b9dd3674192733d313683caea958b75fd611116878966ec03d52b0a"
+        },
+        {
+          "name": "R11.htm",
+          "bytes": 20444,
+          "sha256": "30e07e01305b288baea1ab734160b327a4c7c0e72c5ae83a710c5640d3188463"
+        },
+        {
+          "name": "R12.htm",
+          "bytes": 137811,
+          "sha256": "ad1332d526d428615e419ea63bef18fa082b062102bd667f8c41a8fdc420121c"
+        },
+        {
+          "name": "R13.htm",
+          "bytes": 16205,
+          "sha256": "5dbf69123e9a0856bd812896cc39d80151e41bb5a2f5e034b7efe72a8dd5f250"
+        },
+        {
+          "name": "R14.htm",
+          "bytes": 36816,
+          "sha256": "e3617715547e30354c5bfd9cdbac7cd0a8a9fa17ac54ff0dd6b48c8a85e0087c"
+        },
+        {
+          "name": "R15.htm",
+          "bytes": 22632,
+          "sha256": "f16fdf930f4441a4b8cb7685f0f823c0410fc1a53b26e85e2455ce74b449b628"
+        },
+        {
+          "name": "R16.htm",
+          "bytes": 111867,
+          "sha256": "a3791195ac399e1fa4119ec8e4a3b2b7ecc023ab76be3d3bff15ecc2a77db952"
+        },
+        {
+          "name": "R17.htm",
+          "bytes": 83043,
+          "sha256": "91a15029d5b7d6f68c48fa4ecba06fd650278309e4dd1e3e41c377f12700a8b9"
+        },
+        {
+          "name": "R18.htm",
+          "bytes": 54579,
+          "sha256": "c34ba4e070ad88b53e99cfab992e37d4e72d8c2c5b8355987130452f49ae2f46"
+        },
+        {
+          "name": "R19.htm",
+          "bytes": 22460,
+          "sha256": "b855b43e069cca062274572a4026de8687e496a062fd1e377e4ce922d43b5f9c"
+        },
+        {
+          "name": "R2.htm",
+          "bytes": 7907,
+          "sha256": "e747320d2da37ad87f6fb6e4e4e77d12fa1948dbf452ca2eefe3228ce2862afb"
+        },
+        {
+          "name": "R20.htm",
+          "bytes": 23220,
+          "sha256": "e9ba18eb9052d411bdac9db0d1b1364d258f96f11958953fdf115251a4072de7"
+        },
+        {
+          "name": "R21.htm",
+          "bytes": 16657,
+          "sha256": "105a9c95576fc3b22a715ea093c383c99693bd863ba62cfe901cbed2891a47aa"
+        },
+        {
+          "name": "R22.htm",
+          "bytes": 111262,
+          "sha256": "95e8822236b63c9852a9b25496a2f7662748a3015c91b011fb394e46902170c9"
+        },
+        {
+          "name": "R23.htm",
+          "bytes": 20021,
+          "sha256": "876741725e60cc7dc22cdacee00cc380d2db4e87e82d3b910bc8d6eebafd8294"
+        },
+        {
+          "name": "R24.htm",
+          "bytes": 4487,
+          "sha256": "57c2ad5a0ab476ba74fa1311878fee1f338401a0da31f6e58b35606d14feebf9"
+        },
+        {
+          "name": "R25.htm",
+          "bytes": 40515,
+          "sha256": "73cf3622e75fc3e89eb0aad38d13538e640b6aff0375656e2c1a71c36f8ea8c6"
+        },
+        {
+          "name": "R26.htm",
+          "bytes": 70007,
+          "sha256": "f038fff860b0fb01da6bee0cc1fa8f551e97f0e95311542cda6b37cdc73af4ec"
+        },
+        {
+          "name": "R27.htm",
+          "bytes": 20131,
+          "sha256": "0902f392a4c7c61af87de42ac075f24b5f19894608d71da77de70d8d86ffbf10"
+        },
+        {
+          "name": "R28.htm",
+          "bytes": 19536,
+          "sha256": "b840535ccc7d62bcb17aacb6393c64bcebe89f1f4be4dcf6568f71c2444fa6e5"
+        },
+        {
+          "name": "R29.htm",
+          "bytes": 129291,
+          "sha256": "667fb2b4e1d982a078f7d933d24240c57322712b8ede53ac06c863e913a9928c"
+        },
+        {
+          "name": "R3.htm",
+          "bytes": 98042,
+          "sha256": "5aaa07e43384bda3bd779bafd5bf7fb2b5dfcf0fbfc8b5865ba6f9927be95426"
+        },
+        {
+          "name": "R30.htm",
+          "bytes": 13794,
+          "sha256": "5d3fcc65a704c90b658e17439ee9ae7735e7a596f987e003d2e56b345bcc6665"
+        },
+        {
+          "name": "R31.htm",
+          "bytes": 65517,
+          "sha256": "4a078c129a6a37ec1f28dd1bca61edc55a6d09fa02f9dadfd46334e9c3876d59"
+        },
+        {
+          "name": "R32.htm",
+          "bytes": 26443,
+          "sha256": "a4418f13c3c691c02c094e7fa9f5e9d001e24bbe22e9753b5e69cdd5936e4f30"
+        },
+        {
+          "name": "R33.htm",
+          "bytes": 114783,
+          "sha256": "d7a07a1e0f91f9d92bab9e99128debfeca7206cd43b3110112b10b7fd558eac4"
+        },
+        {
+          "name": "R34.htm",
+          "bytes": 60612,
+          "sha256": "1cf3adf38a8a27c4911324dceb047218514d8011964eb2142062a166be1297df"
+        },
+        {
+          "name": "R35.htm",
+          "bytes": 49211,
+          "sha256": "b8d2644d25512817cf0a95462d1105cb0c4965ccb675321df2be252b618ec070"
+        },
+        {
+          "name": "R36.htm",
+          "bytes": 12198,
+          "sha256": "bccb61f0d74844f33649a5bbec9ad6e8da9e5da70ea261d69c19473da07beb57"
+        },
+        {
+          "name": "R37.htm",
+          "bytes": 20954,
+          "sha256": "f6e22d4552ee8a94d6e4cd1ebff276de9cbb1c394129a3abf365ce2d6f942460"
+        },
+        {
+          "name": "R38.htm",
+          "bytes": 9750,
+          "sha256": "610669df5bffd16da873468528c60e9d58315dec0550d56d687e34bc59d739e3"
+        },
+        {
+          "name": "R39.htm",
+          "bytes": 108105,
+          "sha256": "453409d28d2669d704ccb19d1a4ade6c92b23835cbd8e5fc8a6a36b988da213f"
+        },
+        {
+          "name": "R4.htm",
+          "bytes": 56238,
+          "sha256": "f86e7aa1df6ef53efd0ae483c1b58957fe8b978046a0ed4d55f1eaa3cc3a4a4b"
+        },
+        {
+          "name": "R40.htm",
+          "bytes": 23639,
+          "sha256": "26c3d92d0d631dcee198cce0282c24e5b4e7869026e80afe5b52af9cb6727d1e"
+        },
+        {
+          "name": "R41.htm",
+          "bytes": 5231,
+          "sha256": "781ac9dbd898eb96cd77ca9e58cd2dd8b48cc4d76ac74fa421264ac924eaf63d"
+        },
+        {
+          "name": "R42.htm",
+          "bytes": 16322,
+          "sha256": "5f52d4e6652fadf1d86a151dedb7daa83165284592c61a8c89465e7a44dc8130"
+        },
+        {
+          "name": "R43.htm",
+          "bytes": 47191,
+          "sha256": "88d68227688be43b1bdf1c41483866c372d934cef2d02a516bf72f59c90be2f7"
+        },
+        {
+          "name": "R44.htm",
+          "bytes": 103692,
+          "sha256": "9faf58d4ed0a921e1de7079cb02bde393f544e31536357581114c0831b6c99db"
+        },
+        {
+          "name": "R45.htm",
+          "bytes": 44124,
+          "sha256": "aa2e2e66224f6d81f69195d51c053d4c05a71da4d5187940d17250ad25f8659c"
+        },
+        {
+          "name": "R46.htm",
+          "bytes": 13293,
+          "sha256": "b6a9a8662b85f9d270c36e369e86a2afe826771a9a05277c83b86fd70a53c0e5"
+        },
+        {
+          "name": "R47.htm",
+          "bytes": 23106,
+          "sha256": "b5a4fd8e849a34cb3378da1a082e30670778a2fa397ba95b306a931320b3ed6d"
+        },
+        {
+          "name": "R48.htm",
+          "bytes": 6285,
+          "sha256": "59197376ba5651ae8d3bdc4df8afb903ac6b7e7d57102d0832ef310532dffde0"
+        },
+        {
+          "name": "R49.htm",
+          "bytes": 28274,
+          "sha256": "8721191b1b3aa0908eb755ef2c05c1bb313fcb8d6c48a14bab7ae7b350057b6b"
+        },
+        {
+          "name": "R5.htm",
+          "bytes": 136474,
+          "sha256": "3dec830e495cb8b14a3afd3351b685e680a4031e316caeafa9de9802f9edeb7b"
+        },
+        {
+          "name": "R50.htm",
+          "bytes": 7077,
+          "sha256": "9cc1b5f77c541f5479acec01c3caede3dc042da97d011db124faf52f40b1d724"
+        },
+        {
+          "name": "R51.htm",
+          "bytes": 19376,
+          "sha256": "7274f4a417616aae68b6e5850c1fbefc897339fa255cb06ddd6e9a21df28dd55"
+        },
+        {
+          "name": "R52.htm",
+          "bytes": 10652,
+          "sha256": "d2e1c77219fb637036feda467e92c9c899852ea3a98b09338d4eedbeaf1b3f30"
+        },
+        {
+          "name": "R53.htm",
+          "bytes": 8674,
+          "sha256": "fbec8b2fa39971275f9fc438742217aa33f0da9a9cdddedbb2b3f2df86ca9364"
+        },
+        {
+          "name": "R54.htm",
+          "bytes": 10998,
+          "sha256": "63065026eb07f4bbe20fab7c420193cf7f8c43e5f2ba286db7ea2d2cce96b5f8"
+        },
+        {
+          "name": "R55.htm",
+          "bytes": 37703,
+          "sha256": "b10548804b4b2694e8726eea751903c83a997b076adb2d0470415691b7c8f941"
+        },
+        {
+          "name": "R56.htm",
+          "bytes": 14229,
+          "sha256": "b4f0fcc85223b58dda0dba8c843abd31a11c3dbffdb78725a2e3239a3e2eea0f"
+        },
+        {
+          "name": "R57.htm",
+          "bytes": 37562,
+          "sha256": "6cb03d79c05ac65c56a0557b396ba38d659408d3f30729c32b9248e7f077ddfc"
+        },
+        {
+          "name": "R58.htm",
+          "bytes": 61207,
+          "sha256": "b910eb1af045b8922b00be8e529bee4c6438a858c33999ff742330ed7e8da223"
+        },
+        {
+          "name": "R59.htm",
+          "bytes": 26678,
+          "sha256": "6fa0dffbba3b005c827a7b42651967981297ba25f113bab0cdd22ab014bb5eed"
+        },
+        {
+          "name": "R6.htm",
+          "bytes": 16515,
+          "sha256": "ae2b6fd0b02f517a6dd9360d42b6c6e1f8484b4a1a45067e9f212f96753eed8f"
+        },
+        {
+          "name": "R60.htm",
+          "bytes": 32139,
+          "sha256": "1187becab57b24bb637c357195216f1f09ff3c2857686c026ce325ecfbeb7f9a"
+        },
+        {
+          "name": "R61.htm",
+          "bytes": 17508,
+          "sha256": "952e076c36c8b72eebed6f9ca889e9ae6a286b542050f16d55a88f8c1d4dedb5"
+        },
+        {
+          "name": "R62.htm",
+          "bytes": 18661,
+          "sha256": "46b474a261cc8fe49ccc037f34af7af9e6ee99ce1e15383eca2eac745fd25d74"
+        },
+        {
+          "name": "R63.htm",
+          "bytes": 28241,
+          "sha256": "dc4600388399eaaa3c3462d9e69be69b2cc6dfe2e1830cc70880560bb7a7f70e"
+        },
+        {
+          "name": "R64.htm",
+          "bytes": 30131,
+          "sha256": "4e36bcbdde93cec44fbd19dc6169297170d18cb449903f804567cf0e2b78206d"
+        },
+        {
+          "name": "R65.htm",
+          "bytes": 69561,
+          "sha256": "1610fb3da88d512b6e859dae8e71e4dda9bb49e4825e52212798a5bff8379596"
+        },
+        {
+          "name": "R66.htm",
+          "bytes": 31012,
+          "sha256": "d44de44da7dfbb4f07fcd74763176b3c393e13c0757bfe224dfe3a5b99b3b6a2"
+        },
+        {
+          "name": "R67.htm",
+          "bytes": 15846,
+          "sha256": "779591651ddae31a11f14f377fa711ead7246d9e8b6d8e14710485d586661619"
+        },
+        {
+          "name": "R68.htm",
+          "bytes": 50175,
+          "sha256": "021b4cfe297d24d02234df0d92ee3a98181cca9a718a0aacf4e764aed2c378ef"
+        },
+        {
+          "name": "R69.htm",
+          "bytes": 25139,
+          "sha256": "5747124211fb224caced163ce886babce2aa1ae4e8394bc70c6f3491cd603fa7"
+        },
+        {
+          "name": "R7.htm",
+          "bytes": 58496,
+          "sha256": "a18c9b030eb7b7fa44e311884d4b5f4440c4a253970482ad3d437ddbc1bcf367"
+        },
+        {
+          "name": "R70.htm",
+          "bytes": 12537,
+          "sha256": "8ffd155d303e2dd8fb044b54d21cda51ba2d4262c9c59e23e5ee2ed59d5eac8c"
+        },
+        {
+          "name": "R71.htm",
+          "bytes": 17853,
+          "sha256": "d5a3e877537918346eb63f1be4e4c2563da6465670062d7ba6bb34fbf149418f"
+        },
+        {
+          "name": "R72.htm",
+          "bytes": 35458,
+          "sha256": "d239b5dbc3732bc6649102086cbd569f44e36b6970aecb8c1968515982cb363a"
+        },
+        {
+          "name": "R73.htm",
+          "bytes": 25957,
+          "sha256": "a68475097c4166dbc37318ebbd4aaa07278578e0e16c1da74cc5dfb21f3d2507"
+        },
+        {
+          "name": "R74.htm",
+          "bytes": 7461,
+          "sha256": "735bd977a54a0f86eaf8740bdfda487dc0a3f8b644e5df643702e962fcacccd7"
+        },
+        {
+          "name": "R75.htm",
+          "bytes": 19703,
+          "sha256": "223e431d97a2ac97c736592d09373d8a7a1bd9970af390417aadd377647e4569"
+        },
+        {
+          "name": "R76.htm",
+          "bytes": 4072,
+          "sha256": "535276a86fc9ef5f8296d0bd4e9db449494ddbd15aa3007be8574993a37a5216"
+        },
+        {
+          "name": "R77.htm",
+          "bytes": 55545,
+          "sha256": "1248b8f70cc41e26d012d78cfa81b439b4c51eedd83235ceadb715675987bf3e"
+        },
+        {
+          "name": "R78.htm",
+          "bytes": 16114,
+          "sha256": "cd0219318202f5bba5ed4f13d8db4e749ca14b170d570e6d621f677a454e5fe7"
+        },
+        {
+          "name": "R79.htm",
+          "bytes": 9693,
+          "sha256": "fff7c98d9edd2fe867a94d56c1c2b3e7209d100275e3d3cac11d66f6cadf055f"
+        },
+        {
+          "name": "R8.htm",
+          "bytes": 88794,
+          "sha256": "eed8ac0a2a81ed552829fdbdd4d29b1d4cffcbaeade9e3b66c8ec7ff3a36c649"
+        },
+        {
+          "name": "R9.htm",
+          "bytes": 12845,
+          "sha256": "98a0eb2aa6f54aa01c0e89fcb4863ae1e361098c2dc547b9daed3eebe5d81d26"
+        },
+        {
+          "name": "Show.js",
+          "bytes": 1085,
+          "sha256": "c193d3fb2f770d17d8d3476756fd5b7fe5c61c3fa1a2afd8aa0971210c7abba6"
+        },
+        {
+          "name": "a10-kexhibit101309262026.htm",
+          "bytes": 59550,
+          "sha256": "a520e73abaee2ffe58f1d3fdc3d988b29316f567d34dc1de813725a6a7de6636"
+        },
+        {
+          "name": "a10-kexhibit101409262026.htm",
+          "bytes": 75332,
+          "sha256": "dd07571f96369e1bee7e6e4347d5454d5dc176354a14c9656e9064b00f41e921"
+        },
+        {
+          "name": "a10-kexhibit101509262026.htm",
+          "bytes": 56950,
+          "sha256": "d76b0224930aabf9ccb6c5ddb99b9496af11b268e817e9ea7ee9a8090d750aec"
+        },
+        {
+          "name": "a10-kexhibit101609262026.htm",
+          "bytes": 74792,
+          "sha256": "4cfa7fd3d57fe8100b62d3bea3cb12dac1084623d1d52144c6482fe48ecd6bb3"
+        },
+        {
+          "name": "a10-kexhibit1919262026.htm",
+          "bytes": 47199,
+          "sha256": "afaa6da6607bcca97201b890a6f0c9f09d76d3a1175dff3385e804aeee505e26"
+        },
+        {
+          "name": "a10-kexhibit21109262026.htm",
+          "bytes": 12948,
+          "sha256": "43c46564a3c9150048141c0fcc72e6f22069aadee2be4497b59c09d5ef12d9e8"
+        },
+        {
+          "name": "a10-kexhibit23109262026.htm",
+          "bytes": 6367,
+          "sha256": "b79da906700fb660b04c23f254361fc422459ab48e11ed642e502529d2f0ad95"
+        },
+        {
+          "name": "a10-kexhibit31109262026.htm",
+          "bytes": 10664,
+          "sha256": "80cd1c40061d74a8d3f347439dc71bcac24e8e13faf0b35563e2648c7b0e6995"
+        },
+        {
+          "name": "a10-kexhibit31209262026.htm",
+          "bytes": 10712,
+          "sha256": "991ce891a3256d0ae813103c4d1e0e75a32f9c3fccb80760fdb615e4a7921a48"
+        },
+        {
+          "name": "a10-kexhibit32109262026.htm",
+          "bytes": 8565,
+          "sha256": "528c342f80f64ad686d1f39fc8dc50cf124f458863c34fe2e4c3bbadc97147a8"
+        },
+        {
+          "name": "a10-kexhibit4109262026.htm",
+          "bytes": 116644,
+          "sha256": "a9a12a6feb7f396a09a196d609e17694b4e94408affb22510cbf8a0d2a63981b"
+        },
+        {
+          "name": "aapl-20260926.htm",
+          "bytes": 1650119,
+          "sha256": "502cdd211c5335ef05b94f58e84bedb6cf5d58489c934feb92d77d194998cdbd"
+        },
+        {
+          "name": "aapl-20260926.xsd",
+          "bytes": 63153,
+          "sha256": "7908337f58846aaddd841fa0991b14006760ad41e668fe936e5b0d1b6bd16b1f"
+        },
+        {
+          "name": "aapl-20260926_cal.xml",
+          "bytes": 180513,
+          "sha256": "6e8be4c9457c6597dd6a6aea6f344984c7130c53c3cd13aa1c2b01e746b6bbfb"
+        },
+        {
+          "name": "aapl-20260926_def.xml",
+          "bytes": 248834,
+          "sha256": "4e0a1ad65dd28101e4fa15ba85c5b929bc9eff327404c0391f5dbbd5834f528a"
+        },
+        {
+          "name": "aapl-20260926_g1.jpg",
+          "bytes": 10963,
+          "sha256": "d34f70bca1c0667ed6e35acdfc5cce311ae1788650986c40d72a3eda2df5535d"
+        },
+        {
+          "name": "aapl-20260926_g2.jpg",
+          "bytes": 145901,
+          "sha256": "4acfe5a82a765c03c4e3c3c6c3ce6ab6194ba61c8877e4bc6a03e1d7dc2b29b5"
+        },
+        {
+          "name": "aapl-20260926_htm.xml",
+          "bytes": 1629539,
+          "sha256": "3d931657ceef0a307119d576e020723181dc166b5321b7abd6125ad09ca790ea"
+        },
+        {
+          "name": "aapl-20260926_lab.xml",
+          "bytes": 825459,
+          "sha256": "0a17891af24144cbb881bfb8919f97dc78b5f97f6092a4d4b7383fc2a1627a33"
+        },
+        {
+          "name": "aapl-20260926_pre.xml",
+          "bytes": 540356,
+          "sha256": "e55f3cc755468ccee8b1c201794cce2f085dfedda6e890cda1c9f10422bbc74e"
+        },
+        {
+          "name": "image_0.jpg",
+          "bytes": 2374,
+          "sha256": "fcb6e3c42b8e84b5ce2c7f33397bf9a36b499e876c42bc37530c196d037b4500"
+        },
+        {
+          "name": "report.css",
+          "bytes": 2768,
+          "sha256": "855147744c330d25e81867788f79c2fb97f2901efff6060069b220a3167ce0b1"
+        }
+      ]
+    },
+    "0001140361-26-042798": {
+      "accessionNumber": "0001140361-26-042798",
+      "form": "8-K",
+      "filingDate": "2026-11-09",
+      "reportDate": "2026-11-05",
+      "primaryDocument": "ef20085077_8k.htm",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126042798",
+      "documents": [
+        {
+          "name": "0001140361-26-042798-index-headers.html",
+          "bytes": 6824,
+          "sha256": "d0dbe58b5279ccb29dd7974fc6b5d9ba25abbe5cd971eaacf5801066cb6638a3"
+        },
+        {
+          "name": "0001140361-26-042798-index.html",
+          "bytes": 11819,
+          "sha256": "62095881d6ee1b8f9d28446d3eac4216d6a7a21a9c974c27d28cf62423f47eba"
+        },
+        {
+          "name": "0001140361-26-042798-xbrl.zip",
+          "bytes": 101402,
+          "sha256": "17a7edefb0683cdc5e30dc24d7f5badee2fcf077829b64fda27aa2dc5fc278cd"
+        },
+        {
+          "name": "0001140361-26-042798.txt",
+          "bytes": 1029343,
+          "sha256": "384eb347f36378f48cd44c4b2cfeaec411d65736097c12b705e600fd96cfe4d2"
+        },
+        {
+          "name": "FilingSummary.xml",
+          "bytes": 1785,
+          "sha256": "50967b0dcc1659a2f14ff6aebcf1354728811c9f56fada7d56559ec07e8e5f8f"
+        },
+        {
+          "name": "MetaLinks.json",
+          "bytes": 24091,
+          "sha256": "9f75bd4b8a23ed837d515046c01223c77c1cc0c0c57e3ebd5669fba550ea1fd0"
+        },
+        {
+          "name": "R1.htm",
+          "bytes": 57013,
+          "sha256": "07a2adf14a95fc8f8ed3d69235a70a84624c1f67362a175928cc020829c4990e"
+        },
+        {
+          "name": "Show.js",
+          "bytes": 1085,
+          "sha256": "c193d3fb2f770d17d8d3476756fd5b7fe5c61c3fa1a2afd8aa0971210c7abba6"
+        },
+        {
+          "name": "aapl-20261105.xsd",
+          "bytes": 4467,
+          "sha256": "46772fde04941a4f2a4f8e8f19475382fd539adf371e27e99c5f1e44848960fe"
+        },
+        {
+          "name": "aapl-20261105_def.xml",
+          "bytes": 15064,
+          "sha256": "984f25bc66dbcd34e14e0ee9525da7bee5d6e06c7074bf695d1440a26a6d6fe6"
+        },
+        {
+          "name": "aapl-20261105_lab.xml",
+          "bytes": 29057,
+          "sha256": "c945cbd12242a33476c89f205ce124a3d704ea1e4f78e23ddb66c4789a2cca2a"
+        },
+        {
+          "name": "aapl-20261105_pre.xml",
+          "bytes": 15400,
+          "sha256": "501c47f5073d700af1f639b706c3887ddf3a07090e6812d486beaf50c4352723"
+        },
+        {
+          "name": "ef20085077_8k.htm",
+          "bytes": 44824,
+          "sha256": "55bbbb52f3b870f28b8d92197f5f0f6860b55ad77a05319b8426e302c5772d5d"
+        },
+        {
+          "name": "ef20085077_8k_htm.xml",
+          "bytes": 7877,
+          "sha256": "400ef413ae4bd1c1422b70c82d5e1bcc5d2d30f40e101277910964d2cb7a7315"
+        },
+        {
+          "name": "ef20085077_ex1-1.htm",
+          "bytes": 210978,
+          "sha256": "f09d3177a9c2613daf97d8891d24f5382e745a6085aef14ad1f2dc870d2ff3fb"
+        },
+        {
+          "name": "ef20085077_ex4-1.htm",
+          "bytes": 436729,
+          "sha256": "8375856d8bcac49113f65a71f61f826151eb6149f332218a357659e0acb118aa"
+        },
+        {
+          "name": "ef20085077_ex5-1.htm",
+          "bytes": 19796,
+          "sha256": "770d02bbd3987667d138a47e3a69ec55d90a902177a9e5865741797436fde629"
+        },
+        {
+          "name": "image1.jpg",
+          "bytes": 1264,
+          "sha256": "39c5681c85660e4ebbd41dbb7da12b1f68e72556895810f5000fd6f844c07f7d"
+        },
+        {
+          "name": "image3.jpg",
+          "bytes": 5860,
+          "sha256": "a6ba9965db3d5773dcf4dfe1bfa8e2b6479efd31810e3dcd6f5e5bcbf74fce9b"
+        },
+        {
+          "name": "image4.jpg",
+          "bytes": 4756,
+          "sha256": "453ea6d79f57c9972b77029e7a41cbd33df8e2aee8b28b07428814ad216da8fa"
+        },
+        {
+          "name": "report.css",
+          "bytes": 2767,
+          "sha256": "90929555d10f3b76f1453fc6324fb1307df16b3062dfa33a9ceb223d5b0f5641"
+        }
+      ]
+    }
+  },
+  "checked_at": "2026-11-24T05:38:44.426055+00:00",
+  "name": "Apple Inc."
+}
